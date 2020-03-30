@@ -1,0 +1,11 @@
+%% -*- erlang -*-
+{application, 'lfe-koans',
+ [{description, ""},
+  {vsn, "0.0.1"},
+  {modules,
+   ['01-about-atoms']},
+  {registered, []},
+  {applications,
+   [kernel, stdlib]},
+  {included_applications, []},
+  {env, []}]}.
