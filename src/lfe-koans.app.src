@@ -3,7 +3,7 @@
  [{description, ""},
   {vsn, "0.0.1"},
   {modules,
-   ['01-about-atoms']},
+   ['01-about-atoms', '02-about-boolean-expressions']},
   {registered, []},
   {applications,
    [kernel, stdlib]},
