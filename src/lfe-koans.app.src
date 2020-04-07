@@ -1,6 +1,6 @@
 %% -*- erlang -*-
 {application, 'lfe-koans',
- [{description, ""},
+ [{description, "Koans for Lisp Flavo(u)red Erlang"},
   {vsn, "0.0.1"},
   {modules,
    ['01-about-atoms',
