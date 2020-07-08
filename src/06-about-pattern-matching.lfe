@@ -2,7 +2,7 @@
   (export all))
 
 (defun assignment-with-a-tuple ()
-  (let (((tuple x y) (tuple 'banana 'apple)))
+  (let (((tuple x y) #(banana apple)))
     (and (=:= x 'banana) (=:= y 'apple))))
 
 (defun branching-on-patterns ()
