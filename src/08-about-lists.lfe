@@ -1,6 +1,11 @@
 (defmodule 08-about-lists
   (export all))
 
+(defun defining-a-list ()
+  (let ((short-list '(apple banana))
+        (long-list (list 'apple 'banana)))
+    (=:= 'true (=:= short-list long-list))))
+
 (defun lists-are-not-homogeneous ()
   (let* ((not-just-fruits (list 'apple 'banana 1 'mango))
          (element (lists:nth 3 not-just-fruits)))

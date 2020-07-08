@@ -3,6 +3,9 @@
 
 (include-lib "ltest/include/ltest-macros.lfe")
 
+(deftest defining-a-list-test ()
+  (is (08-about-lists:defining-a-list)))
+
 (deftest lists-are-not-homogeneous-test ()
   (is (08-about-lists:lists-are-not-homogeneous)))
 
